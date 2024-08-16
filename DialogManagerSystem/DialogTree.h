@@ -15,4 +15,7 @@ public:
 
     // Allows setting a new root node
     void SetRoot(std::shared_ptr<DialogNode> rootNode);
+
+    std::shared_ptr<DialogNode> GetRoot() const { return root; }
+
 };

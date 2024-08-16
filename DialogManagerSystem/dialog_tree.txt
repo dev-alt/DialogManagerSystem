@@ -1,0 +1,13 @@
+NODE:Welcome to the game! What will you do?
+	OPTION:Fight the dragon
+		NODE:You chose to fight the dragon! It's a fierce battle...
+			OPTION:Use sword
+				NODE:You use your sword and slay the dragon!
+			OPTION:Use magic
+				NODE:You use magic to defeat the dragon, but at a cost...
+	OPTION:Run away
+		NODE:You chose to run away! You live to fight another day.
+			OPTION:Hide in a cave
+				NODE:You hide in a cave and wait for the danger to pass.
+			OPTION:Return home
+				NODE:You return home, safe but filled with regret.

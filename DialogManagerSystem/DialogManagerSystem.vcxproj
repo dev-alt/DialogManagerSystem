@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="DialogManagerSystem.cpp" />
     <ClCompile Include="DialogNode.cpp" />
+    <ClCompile Include="DialogSaveLoad.cpp" />
     <ClCompile Include="DialogTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DialogNode.h" />
+    <ClInclude Include="DialogSaveLoad.h" />
     <ClInclude Include="DialogSystem.h" />
     <ClInclude Include="DialogTree.h" />
   </ItemGroup>
